@@ -66,6 +66,15 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int TILE_HEADS_UP = BASE + 39;
     public static final int TILE_BATTERY_SAVER = BASE + 40;
     public static final int TILE_CAFFEINE = BASE + 41;
-    public static final int WEATHER_SETTINGS = BASE + 42;
-    public static final int TILE_THEMES = BASE + 43;
+
+    // Custom
+    public static final int TILE_BRIGHTNESS = BASE + 42;
+    public static final int TILE_EXPANDED_DESKTOP = BASE + 43;
+    public static final int TILE_SCREEN_OFF = BASE + 44;
+    public static final int TILE_SCREENSHOT = BASE + 45;
+    public static final int CUSTOM_SETTINGS = BASE + 46;
+    public static final int LOCKSCREEN_WEATHER_SETTINGS = BASE + 47;
+
+    public static final int WEATHER_SETTINGS = BASE + 48;
+    public static final int TILE_THEMES = BASE + 49;
 }
